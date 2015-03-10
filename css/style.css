@@ -1,0 +1,318 @@
+*{
+    margin:0px;
+    padding: 0px;
+    font-family: MyriadPro-Regular, 'Myriad Pro Regular', MyriadPro, 'Myriad Pro', Helvetica, Arial, sans-serif;
+    font-size: 16px;
+}
+
+.header{
+    height: 40px;
+    background: #222;
+    //background: #262627;
+    border-bottom:1px solid #000;
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+    top:0;
+    box-shadow: 0 4px 4px -4px #333;
+
+}
+body{
+    //background: #ECF0F1;
+    //background: #f3f3f3;
+    background: #EBEBEB;
+}
+.search-box{
+    //display: inline-block;
+    float:left;
+    width:auto;
+    margin-top:5px;
+    margin-left:6px;
+}
+
+#inp-search{
+
+    width:260px;
+    height: 14px;
+    border:none;
+    //border-radius: 1px;
+    padding: 8px;
+    //padding: 8px;
+    //border:1px solid #232323;
+
+}
+#inp-search:focus{
+    outline: 1px solid #0088ff;
+}
+
+.user-box{
+    margin-top: 5px;
+    float:right;
+    text-align: right;
+}
+.user-avatar{
+    width:30px;
+    height: 30px;
+    background: url("../ava.jpg");
+    background-size: cover;
+    //border:2px solid #fff;
+    border-radius: 50%;
+    float:left;
+}
+.user-control{
+    float:right;
+    height: 22px;
+    border-radius: 2px;
+    //margin-top:1px;
+    margin-left:10px;
+    margin-right:7px;
+    padding: 4px;
+    line-height: 26px;
+    color:#eee;
+}
+.user-control span{
+    font-size: 12px;
+}
+
+
+
+/*********************************************************************************/
+
+.breadcrumbs{
+    height: 30px;
+    background: #fff;
+    //border-bottom:1px solid #dadada;
+    position: fixed;
+    z-index: 999;
+    width: 100%;
+    top:0;
+    margin-top:41px;
+    box-shadow: 0 4px 4px -3px #333;
+    display: none;
+
+
+}
+.breadcrumbs ul{
+    list-style: none;
+}
+.breadcrumbs ul li{
+    float:left;
+    //background: #f7f7f7;
+    padding: 5px;
+    //margin-left:2px;
+    border-left:1px solid #f0f0f0;
+    //background: #0088ff;
+}
+.breadcrumbs ul li a{
+    //color:#27433e;
+    color:#292929;
+    text-decoration: none;
+    font-size: 13px;
+}
+.breadcrumbs ul li a:hover{
+    color:#000;
+    text-decoration: underline;
+}
+.breadcrumbs ul li a.current{
+    color:#0088ff;
+}
+
+
+
+.breadcrumbs ul li:after{
+}
+/*********************************************************************************/
+
+
+.main-content{
+    margin-top:100px;
+    margin-left:7px;
+
+}
+
+.box-wrap{
+    float:left;
+    //border-radius: 4px;
+    //border:1px solid #e3e5e5;
+    padding: 10px;
+    background: #fff;
+    box-shadow: 0 4px 4px -4px #333;
+
+    margin-left:46px;
+    margin-bottom: 50px;
+}
+.box{
+    width:259px;
+    height:200px;
+    background: #fff;
+    //border:1px solid #e3e5e5;
+    //border:1px solid #d1d5d6;
+    border-bottom: none;
+    position: relative;
+
+}
+.footer{
+    width: 251px;
+    //padding: 4px;
+   // border:1px solid #d1d5d6;
+
+    background: #fff;
+    font-size: 12px;
+    color:#333;
+    height: 60px;
+
+}
+.footer .title{
+    display: inline-block;
+    margin-top: 10px;
+    font-family: Arial,sans-serif;
+    font-size: 12px;
+    color:#333;
+    font-weight: bold;
+    //color:#fff;
+    //text-shadow: 1px 1px 2px #333;
+}
+
+
+.t{
+    background: url("https://i.ytimg.com/vi/RKWY31HRRFo/maxresdefault.jpg");
+    background-size: cover;
+}
+.t1{
+    background: url("http://ghost.jollygoodthemes.com/toffee/content/images/2014/Mar/Pizza_med_gorgonzola__spinat_og_bacon__March_2010.jpg");
+    background-size: cover;
+}
+
+.t2{
+    background: url("http://anthemes.com/themes/pin/full/wp-content/uploads/2014/02/picjumbo.com_IMG_8375.jpg");
+    background-size: cover;
+    
+}
+.t3{
+    background: url("https://i1.sndcdn.com/artworks-000063183501-kpt915-t500x500.jpg");
+    background-size: cover;
+}
+.b{
+    //background: #333;
+}
+.r{
+    //background: red;
+}
+.bl{
+    //background: #6D8CB0;
+}
+.bl1{
+   //background: #88C9F9;
+}
+
+
+.meta{
+    display: block;
+    padding: 4px;
+    font-size: 11px;
+    //background: #cc181e;
+}
+.meta a{
+    font-size:11px;
+    color:#333;
+    display: inline;
+}
+.meta img{
+    //display:block;
+margin-top:-1px;
+    margin-right:4px;
+    float:left;
+}
+
+
+
+
+/******************************************/
+.search-button{
+    width:60px;
+    height:30px;
+    background: #eee;
+    border: 0px;
+    font-size: 12px;
+    background:#eee url("http://cdn.flaticon.com/png/256/49116.png") no-repeat;
+    background-size: 16px 16px;
+    background-position: center;
+    text-indent: 9999px;
+
+    border-top-right-radius: 2px;
+    border-bottom-right-radius: 2px;
+}
+
+
+
+
+
+/*******************************************************/
+
+
+.folder-wrap{
+    width:1232px;
+    background: #fff;
+    float:left;
+    box-shadow: 0 4px 4px -4px #333;
+    padding: 12px;
+    margin-bottom: 40px;
+    margin-left: 46px;
+}
+.folder{
+    //background: #222;
+    width:180px;
+    height: 50px;
+    float:left;
+    margin-right:10px;
+    margin-bottom: 10px;
+    //box-shadow: 0 4px 4px -4px #333;
+    border:1px solid #eee;
+    position: relative;
+
+}
+.folder:hover{
+    background: #222;
+    cursor: pointer;
+    //-webkit-transition: background: #222;
+    transition:  0.8s;
+}
+.folder:hover span{
+
+    color:#fff;
+}
+.folder:hover .folder-del{
+    display: block;
+}
+.folder-icon{
+    width:36px;
+    height: 36px;
+    background: url("../ava.jpg");
+    background-size: cover;
+    border-radius: 50%;
+    float:left;
+    margin-top: 6px;
+    margin-left: 6px;
+
+}
+.folder-del{
+    margin-top: 4px;
+    margin-right: 4px;
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    right:0px;
+    background: url("../delete.png");
+    background-size: 16px 16px;
+    //background: red;
+    display: none;
+}
+.folder-title{
+    display: block;
+    margin-top: 18px;
+    margin-left: 50px;
+    font-size: 12px;
+    color:#fff;
+    color:#222;
+}
+
