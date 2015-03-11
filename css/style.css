@@ -27,7 +27,7 @@ body{
     float:left;
     width:auto;
     margin-top:5px;
-    margin-left:6px;
+    margin-left:52px;
 }
 
 #inp-search{
@@ -39,6 +39,8 @@ body{
     padding: 8px;
     //padding: 8px;
     //border:1px solid #232323;
+    border-top-left-radius: 2px;
+    border-bottom-left-radius: 2px;
 
 }
 #inp-search:focus{
@@ -49,6 +51,7 @@ body{
     margin-top: 5px;
     float:right;
     text-align: right;
+    margin-right: 30px;
 }
 .user-avatar{
     width:30px;
